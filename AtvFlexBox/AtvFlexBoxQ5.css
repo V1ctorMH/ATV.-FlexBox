@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.header, .footer{
+    background-color: red;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    border: 0.5px solid black;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    flex: 1;
+}
+.BarraLateral{
+    display: flex;
+    flex-direction: column;
+}
+.AreaPrincipal{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+#barra{
+    background-color: rgb(0, 225, 255);
+    text-align: center;
+    height: 100px;
+    flex: 1;
+    width: 150px;
+    border: 0.5px solid black;
+    box-sizing: border-box;
+
+}
+#principal{
+    flex: 1;
+    background-color: rgb(255, 242, 60);
+    text-align: center;
+    height: 100px;
+    width: 172vh;
+    border: 0.5px solid black;
+    box-sizing: border-box;
+}
